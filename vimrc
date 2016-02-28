@@ -66,3 +66,14 @@ let &guicursor = &guicursor . ",a:blinkon0"
 "Custom stuff
 set shiftwidth=4
 set tabstop=4
+set nu
+set ruler
+set history=50
+
+
+vnoremap ] :next<CR>
+vnoremap [ :prev<CR>
+
+"Indent a block of code
+vnoremap < <gv
+vnoremap > >gv
